@@ -1,7 +1,5 @@
 def find_digit(x,loc):
-
-    if loc>0:
-       
+    if loc>0:       
         if loc<=len(str(abs(x))):
             x=(str(abs(x))[::-1])
             return(int(x[loc-1]))
