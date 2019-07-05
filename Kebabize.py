@@ -1,10 +1,6 @@
-word = "AbfdfdAcsddd"
-new= [] 
-old= []
-for i in word:     
-    if i.isupper():
-        new.append(i)
-    else: 
-        old.append(i)
-print(new)
-print(old)
+x=['a', 'a', 'b', 'b', 'b']
+
+words ={}
+for i in x: 
+    words[i] = words.get(i,0)+1
+print(words)
