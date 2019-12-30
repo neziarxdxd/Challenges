@@ -1,3 +1,1 @@
-# Day2Challenge
-
-I love you grace 
+# Challenges Collection for my Studies 
