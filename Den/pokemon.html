@@ -6,6 +6,7 @@
 <title>JavaScript Increasing and Decreasing Image Size</title>
 <script>
 	var energyLevel= 0;
+	var file=1;
     function zoomin(){
         var myImg = document.getElementById("pokemon");
         var currWidth = myImg.clientWidth;
@@ -17,7 +18,8 @@
             
         } else{
 			alert("EVOLVE");
-			document.getElementById("pokemon").src="picka.jpg";
+			file++;
+			document.getElementById("pokemon").src="img"+file +".jpg";
 			energyLevel=0;
 			
             
@@ -55,6 +57,6 @@ So happy for yah xD
         <button type="button" onclick="zoomin()">Add Energy</button>
         <!--<button type="button" onclick="zoomout()">Zoom Out</button>-->
     </p>
-    <img src="pichu.jpg" id="pokemon" width="250" alt="Pichu">
+    <img src="img1.jpg" id="pokemon" width="250" alt="Pichu">
 </body>
 </html>
