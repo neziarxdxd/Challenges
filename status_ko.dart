@@ -1,7 +1,8 @@
-void main(){  
-   walangJowaKawawa(); 
+void main(){
+   mayJowaNa();
 }
 
-void walangJowaKawawa(){
-  print("aaah walang jowa WAHAHAHA");
+void mayJowaNa(){
+  print("Yieeeeeeee may jowa na sya WAHAAHAHAH");
 }
+
